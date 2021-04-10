@@ -1,6 +1,6 @@
 # Halo [ˈheɪloʊ]
 > Halo 是一款现代化的个人独立博客系统，给习惯写博客的同学多一个选择。
-> [官网](https://halo.run)
+> <a href="https://halo.run" target="_blank">官网</a>
 
 ## Dokcer-compose 一键部署
 
