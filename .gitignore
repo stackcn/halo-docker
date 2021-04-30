@@ -1,0 +1,6 @@
+/nginx/logs
+/nginx/ssl
+/mysql
+/halo/logs
+/halo/templates
+/halo/static

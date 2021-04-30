@@ -28,13 +28,31 @@ services:
         restart: always
         volumes:
             - ./halo:/root/.halo
-        ports:
-            - 9000:8090
         networks: 
             - backend
-            - frontend
         links:
             - mysql
+            
+
+
+### Nginx ###
+    nginx:
+        build:
+            context: ./nginx
+        restart: always
+        networks:
+            - backend
+            - frontend
+        ports:
+            - 80:80
+            - 443:443
+        volumes:
+            - ./nginx/sites:/etc/nginx/sites
+            - ./nginx/logs:/var/log/nginx
+            - ./nginx/ssl:/etc/nginx/ssl
+        links:
+            - halo
+        
         
 
 
