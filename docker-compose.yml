@@ -49,7 +49,7 @@ services:
         volumes:
             - ./nginx/sites:/etc/nginx/sites
             - ./nginx/logs:/var/log/nginx
-            - ./nginx/ssl:/etc/nginx/ssl
+            - ./nginx/ssls:/etc/nginx/ssls
         links:
             - halo
         
