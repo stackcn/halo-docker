@@ -8,12 +8,15 @@
 ## Docker-compose 安装
 > [官方文档](https://docs.docker.com/compose/install/)
 
+## Docker & Docker-compose 安装中文
+> [UBUNTU 安装DOCKER 并配置 DOCKER-COMPOSE](https://www.119t.cn/archives/ubuntu%E5%AE%89%E8%A3%85docker)
+
 ## Dokcer-compose 一键部署
 
 ```
  # git clone https://github.com/stackcn/halo-docker
  # cd halo-docker
- # docker-compose -d up 
+ # docker-compose up -d 
 ```
 
 ### nginx 配置
